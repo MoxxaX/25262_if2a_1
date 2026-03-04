@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Penerimaan Mahasiswa Baru - Universitas MDP</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            color: #000;
+        }
+
+        header img {
+            width: 120px;
+        }
+        .sub-title {
+            font-size: 14px;
+            text-align: start;
+            color: #555;
+        }
+
+        .nav-links {
+            font-size: 14px;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        input, select {
+            width: 150px;
+            padding: 5px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+        
+        input[type="radio"] {
+            width: auto;          
+            margin-right: 5px;   
+        }
+
+        textarea{
+            width: 150px;
+            height: 30px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+
+        }
+
+        button {
+            padding: 5px 10px;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <div>
+            <img src="img/mdp.png" alt="Logo MDP">
+            <div class="sub-title">Kampus Inovasi</div>
+        </div>
+    </header>
+
+    <hr>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a> |
+        <a href="profil.html">Profil</a> |
+        <a href="pmb.html">PMB</a> |
+        <a href="hubungi.html">Hubungi Kami</a>
+    </div>
+
+    <hr>
+
+    <h2>Penerimaan Mahasiswa Baru</h2>
+    <p>Universitas MDP membuka penerimaan mahasiswa baru untuk tahun akademik 2025/2026. Silahkan daftar segera!</p>
+
+    <form>
+
+        <label>Nama Lengkap</label><br>
+        <input type="text"><br>
+
+        <label>Jenis Kelamin</label><br>
+            <div class="radio-group">
+                <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+                <input type="radio" name="jk" value="Perempuan"> Perempuan
+            </div>
+        </br>
+
+        <label>Nomor HP</label><br>
+        <input type="text"><br>
+
+        <label>Email</label><br>
+        <input type="email"><br>
+
+        <label>Alamat</label><br>
+        <textarea rows="3"></textarea><br>
+
+        <label>Pilihan Program Studi</label>
+        <br>
+        <select>
+            <option>Sistem Informasi (S1)</option>
+            <option>Teknik Informatika (S1)</option>
+            <option>Manajemen (S1)</option>
+        </select>
+        <br>
+
+        <button type="submit">Daftar</button>
+
+    </form>
+
+    <footer>
+        © 2025 Universitas MDP
+    </footer>
+
+</div>
+
+</body>
+</html>
