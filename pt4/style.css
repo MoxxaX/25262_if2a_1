@@ -1,0 +1,32 @@
+body{
+    background-color: blue;
+}
+
+
+
+.bg-primary{
+    background-color: yellow;
+}
+.text-center{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: red;
+    }
+    .col-xs{
+    width: 100%;
+}
+    
+}
+
+@media screen and (min-width:600px) {
+    body{
+        background-color: green;
+    }
+    .col-lg{
+    width: 25%;
+    float: left;
+}
+}
