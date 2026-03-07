@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkorange;
+}
+
+img{
+    width: 100%;
+    
+}
+
+.m-5{
+    padding: 5px;
+}
+
+.row{
+    clear: left;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: red;
+    }  
+}
+
+@media screen and (min-width:602px) {
+    body{
+        background-color: aqua;
+    }
+    .col-md-50{
+        width: 50%;
+        float: left;
+    
+    }
+    .coll-100{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (min-width:903px) {
+    body{
+        background-color: rgb(0, 255, 76);
+        color: white;
+    }
+    .col-lg-25{
+        width: 25%;
+        float: left;
+    
+    }
+    .col2{
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+    .col75{
+        width: 75%;
+        float: left;
+    }
+    .col25{
+        width: 25%;
+        float: left;
+    }
+}
